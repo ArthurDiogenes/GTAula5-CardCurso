@@ -3,8 +3,8 @@
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(o, 0, 0, 0.1);
-    transition: trasform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -52,5 +52,6 @@
 .card-details {
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    padding: 15px 0;
 }
